@@ -19,6 +19,7 @@ It collects book data from a website and saves the results as a CSV file.
    ```bash
    pip install -r requirements.txt
 2.Run the script:
-python scraper.py
+   ```bash
+   python scraper.py
 
 
