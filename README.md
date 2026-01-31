@@ -1,18 +1,24 @@
-pythonを用いて対象Webサイトから商品情報を取得し、csv形式で出力するスクレイピング処理を実装しました。
+# Python Web Scraping Portfolio
 
-【ファイルの詳細】
-・scraper.py:コードファイル
-・requirements.txt:使用ライブラリ
-・books.csv:実行結果ファイル
+This project is a simple web scraping script written in Python.
+It collects book data from a website and saves the results as a CSV file.
 
-【使用技術】
-・Python3.11.9
-・requests
-・BeautifulSoup4
-・pandas
+## File Info
+- `scraper.py`: Main scraping script
+- `requirements.txt`: Required Python libraries
+- `books.csv`: Scraped result data
 
-【実行方法】
-terminal上で下記二つを実行してください。
-pip install -r requirements.txt
+## Technologies Used
+- Python 3.11.9
+- requests (HTTP requests)
+- BeautifulSoup4 (HTML parsing)
+- pandas (data processing and CSV export)
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+2.Run the script:
 python scraper.py
+
 
